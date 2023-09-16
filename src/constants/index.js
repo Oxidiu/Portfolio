@@ -120,9 +120,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Feb 2023",
       points: [
-        "Learned the IT Fundamentals: IT history, infrastructure, basic concepts",
-        "Learned how to configure operating systems and networks",
-        "Learned how the internet works",
+        "Learnt the IT Fundamentals: IT history, infrastructure, basic concepts",
+        "Learnt how to configure operating systems and networks",
+        "Learnt how the internet works",
       ],
     },
     {
@@ -130,13 +130,13 @@ import {
       company_name: "Develhope Academy",
       icon: develhope,
       iconBg: "#383E56",
-      date: "March 2023 - August 2023",
+      date: "Mar 2023 - Aug 2023",
       points: [
-        "Learned how to use HTML, CSS and JavaScript",
-        "Learned Sass, and Typescript",
-        "Learned how to use React.js for frontend and Node.js for backend",
-        "Learned how to use GIT and Github for source control and to collaborate with team mates",
-        "Collaborated with colleagues on a project to clone a site from scratch using the learned technologies",
+        "Learnt how to use HTML, CSS and JavaScript",
+        "Learnt Sass, and Typescript",
+        "Learnt how to use React.js for frontend and Node.js for backend",
+        "Learnt how to use GIT and Github for source control and to collaborate with teammates",
+        "Collaborated with colleagues on a project to clone a site from scratch using the learnt technologies",
       ],
     },
 
@@ -174,7 +174,7 @@ import {
     {
       name: "Develhope Project",
       description:
-        "This is the project I worked on together with my meam mates Oğuzhan Akçalı and Anna Zhykol during the Ful-Stack Developer certification course I followed at Develhope Academy. This is a clone to an existing website where we have used all the skills we have acquired during the study.",
+        "This is the project I worked on together with my teammates Oğuzhan Akçalı and Anna Zhykol during the Ful-Stack Developer certification course I followed at Develhope Academy. This is a clone to an existing website where we have used all the skills we have acquired during the study.",
       tags: [
         {
           name: "react",
@@ -195,7 +195,7 @@ import {
     {
       name: "Portfolio site",
       description:
-        "The actual portfolio site you are browsing right now is made in its entirety by my self. I have used the React.js and Three.js for the appearance and 3D objects and Tailwind for the appearance.",
+        "The actual portfolio site you are browsing right now is made in its entirety by myself. I have used the React.js and Three.js for the appearance and 3D objects and Tailwind for the appearance.",
       tags: [
         {
           name: "react",

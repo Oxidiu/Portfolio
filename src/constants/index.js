@@ -5,21 +5,16 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    develhope,
+    startech,
+    logo,
     threejs,
+    postgresql,
+    pancakeswap,
+    portfolio,
   } from "../assets";
 
   export const colorCyan = "#7fdbff"
@@ -80,10 +75,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -93,8 +85,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "PostgreSQL",
+      icon: postgresql,
     },
     {
       name: "Three JS",
@@ -104,69 +96,51 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
 
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Independent research",
+      company_name: "Self driven",
+      icon: logo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jul 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Researched about programming online",
+        "Followed various courses I found online for HTML and CSS",
+        "Exercised basic HTML and CSS",
+        "Started the Github account",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Comptia ITF+",
+      company_name: "Startech Academy",
+      icon: startech,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned the IT Fundamentals: IT history, infrastructure, basic concepts",
+        "Learned how to configure operating systems and networks",
+        "Learned how the internet works",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full-Stack Developer Certification",
+      company_name: "Develhope Academy",
+      icon: develhope,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned how to use HTML, CSS and JavaScript",
+        "Learned Sass, and Typescript",
+        "Learned how to use React.js for frontend and Node.js for backend",
+        "Learned how to use GIT and Github for source control and to collaborate with team mates",
+        "Collaborated with colleagues on a project to clone a site from scratch using the learned technologies",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
+
   ];
 
   const testimonials = [
@@ -198,16 +172,37 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Develhope Project",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is the project I worked on together with my meam mates Oğuzhan Akçalı and Anna Zhykol during the Ful-Stack Developer certification course I followed at Develhope Academy. This is a clone to an existing website where we have used all the skills we have acquired during the study.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "sass",
+          color: "green-text-gradient",
+        },
+        {
+          name: "git",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pancakeswap,
+      source_code_link: "https://github.com/okcl/React-App-Team2",
+    },
+    {
+      name: "Portfolio site",
+      description:
+        "The actual portfolio site you are browsing right now is made in its entirety by my self. I have used the React.js and Three.js for the appearance and 3D objects and Tailwind for the appearance.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tree",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +210,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/Oxidiu/Portfolio",
     },
   ];
 

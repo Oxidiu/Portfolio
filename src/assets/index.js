@@ -20,15 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import postgresql from './tech/postgresql.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import develhope from './company/develhope.webp'
+import startech from './company/startech.jpg'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pancakeswap from './pancakeswap.png';
+import portfolio from './portfolio.png'
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  develhope,
+  startech,
+  pancakeswap,
+  portfolio,
+  postgresql,
 };

@@ -191,6 +191,7 @@ import {
       ],
       image: pancakeswap,
       source_code_link: "https://github.com/okcl/React-App-Team2",
+      live_page_link: "https://pancakeswap-seven.vercel.app/",
     },
     {
       name: "Portfolio site",
@@ -212,6 +213,7 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/Oxidiu/Portfolio",
+      live_page_link: "https://ovidiuradu.vercel.app/"
     },
   ];
 

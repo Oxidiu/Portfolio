@@ -6,7 +6,7 @@ import {SectionWrapper} from '../hoc';
 import {projects} from '../constants';
 import {fadeIn, textVariant} from '../utils/motion'
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, live_page_link}) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -17,8 +17,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
+        <a href={live_page_link}>
         <div className='relative w-full h-[230px]'>
-          <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
+          <img  src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -39,6 +40,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
             </p>
           ))}
         </div>
+        </a>
       </Tilt>
     </motion.div>
   )

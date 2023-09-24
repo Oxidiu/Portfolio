@@ -26,8 +26,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-      'service_9gl3okq',
-      'template_rtl5ejs',
+      'service_nnwqvg8',
+      'template_1okh9ap',
       {
         from_name: form.name,
         to_name: 'Ovidiu',
@@ -35,7 +35,7 @@ const Contact = () => {
         to_email: 'oxidiu777@gmail.com',
         message: form.message
       },
-      'tUYDMbRbGDMHFJK0D')
+      'rSl1tI_c6NsxNMpRi')
       .then(() => {
         setLoading(false);
         alert('Thank you. I will get back to you as soon as possible.')

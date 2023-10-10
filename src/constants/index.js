@@ -215,6 +215,28 @@ import {
       source_code_link: "https://github.com/Oxidiu/Portfolio",
       live_page_link: "https://ovidiuradu.vercel.app/"
     },
+    {
+      name: "Susurul Apei,
+      description:
+        "Thia is my first real project for a client. I am designin a promoting website with booking features. This project is still in progress, I am currently working at the homepage.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Oxidiu/Portfolio",
+      live_page_link: "https://ovidiuradu.vercel.app/"
+    },
   ];
 
   export { services, technologies, experiences, testimonials, projects };

@@ -216,7 +216,7 @@ import {
       live_page_link: "https://ovidiuradu.vercel.app/"
     },
     {
-      name: "Susurul Apei,
+      name: "Susurul Apei",
       description:
         "Thia is my first real project for a client. I am designin a promoting website with booking features. This project is still in progress, I am currently working at the homepage.",
       tags: [

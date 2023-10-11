@@ -26,11 +26,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import develhope from './company/develhope.webp'
-import startech from './company/startech.jpg'
+import develhope from './company/develhope.webp';
+import startech from './company/startech.jpg';
 
+import susurulApei from './susurulApei.png';
 import pancakeswap from './pancakeswap.png';
-import portfolio from './portfolio.png'
+import portfolio from './portfolio.png';
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   pancakeswap,
   portfolio,
   postgresql,
+  susurulApei
 };

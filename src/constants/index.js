@@ -233,9 +233,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/Oxidiu/Portfolio",
-      live_page_link: "https://ovidiuradu.vercel.app/"
+      image: susurulApei,
+      source_code_link: "https://github.com/Oxidiu/susurul-apei",
+      live_page_link: "https://susurul-apei.vercel.app/"
     },
   ];
 

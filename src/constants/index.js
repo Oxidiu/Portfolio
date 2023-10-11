@@ -15,6 +15,7 @@ import {
     postgresql,
     pancakeswap,
     portfolio,
+    susurulApei,
   } from "../assets";
 
   export const colorCyan = "#7fdbff"
@@ -218,7 +219,7 @@ import {
     {
       name: "Susurul Apei",
       description:
-        "This is my first real project for a client. I am designin a promoting website with booking features. This project is still in progress, I am currently working at the homepage.",
+        "This is my first real project for a client. I am designing a promoting website with booking features. This project is still in progress, I am currently working at the homepage.",
       tags: [
         {
           name: "react",
@@ -233,7 +234,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "susurulApei",
+      image: susurulApei,
       source_code_link: "https://github.com/Oxidiu/susurul-apei",
       live_page_link: "https://susurul-apei.vercel.app/"
     },

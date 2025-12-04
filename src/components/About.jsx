@@ -7,7 +7,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({index, title, icon}) => {
+const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full" >
       <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
@@ -34,19 +34,59 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-
       </motion.div>
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an aspiring and enthusiastic Junior Full-Stack Web Developer with a passion for creating intuitive user interfaces and dynamic web applications. I have graduated the Develhope Full-Stack Web developer 6 months course. During this course I have gained skills in languages like HTML, CSS, and Javascript and frameworks like React.js for the frontend, and Node.js and PostgreSQL database for the server side. I am a quick lerner and enthusiastic about programming. Let's work together to bring your innovative ideas to life through code.
+        I'm an aspiring and enthusiastic Junior to Middle DevOps Engineer with two years of experience. My skills include working with cloud platforms like AWS, Azure, and Google Cloud, Docker for containerization, and CI/CD tools including Jenkins and GitLab CI.
       </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        I've also been trained as a Full-Stack Web Developer, having completed the Develhope 6-month course. I gained proficiency in HTML, CSS, JavaScript, React.js for frontend development, and Node.js with PostgreSQL for backend development.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        My experience includes automating code deployment using Jenkins, Bitbucket, and GitLab CI, as well as implementing monitoring and logging solutions with Prometheus, Grafana, and Zabbix to ensure system reliability and performance.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        Outside of work, I'm passionate about building and repairing PCs, retro gaming, crafting, puzzles, driving, and outdoor activities. These hobbies maintain my work-life balance and fuel my creativity.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        I'm eager to connect with like-minded professionals and explore new opportunities in tech. Feel free to reach out to collaborate or discuss technology!
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        Let's build something amazing together!
+      </motion.p>
+
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} title={service.title} icon={service.icon}/>
+          <ServiceCard
+            key={service.title}
+            index={index}
+            title={service.title}
+            icon={service.icon}
+          />
         ))}
-
       </div>
     </>
   )

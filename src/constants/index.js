@@ -1,21 +1,37 @@
 import {
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
-    git,
-    develhope,
-    startech,
-    logo,
-    threejs,
-    postgresql,
-    pancakeswap,
-    portfolio,
-    susurulApei,
+  aws,
+  apache,
+  bash,
+  bitbucket,
+  cas,
+  css,
+  develhope,
+  docker,
+  git,
+  gitlab,
+  grafana,
+  html,
+  javascript,
+  jenkins,
+  linux,
+  logo,
+  lumeaElfilor,
+  magento,
+  mariadb,
+  nginx,
+  nodejs,
+  pancakeswap,
+  portfolio,
+  postgresql,
+  prometheus,
+  reactjs,
+  startech,
+  susurulApei,
+  tailwind,
+  threejs,
+  typescript,
+  udemy,
+  web,
   } from "../assets";
 
   export const colorCyan = "#7fdbff"
@@ -57,46 +73,92 @@ import {
 
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "AWS" ,
+      icon: aws,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Apache",
+      icon: apache,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Bash",
+      icon: bash,
     },
+    // {      name: "Bitbucket",
+    //   icon: bitbucket,
+    // },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "CAS",
+      icon: cas,
     },
-    {
-      name: "React JS",
-      icon: reactjs,
+    {      name: "Docker",
+      icon: docker,
     },
+    {      name: "Grafana",
+      icon: grafana,
+    },
+    {      name: "GitLab",
+      icon: gitlab,
+    },
+    {      name: "Jenkins",
+      icon: jenkins,
+    },
+    {      name: "Linux",
+      icon: linux,
+    },
+    {      name: "Magento",
+      icon: magento,
+    },
+    {      name: "MariaDB",
+      icon: mariadb,
+    },
+    {      name: "Nginx",
+      icon: nginx,
+    },
+    {      name: "Prometheus",
+      icon: prometheus,
+    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
+    // {
+    //   name: "React JS",
+    //   icon: reactjs,
+    // },
 
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "PostgreSQL",
-      icon: postgresql,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "PostgreSQL",
+    //   icon: postgresql,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
 
   ];
 
@@ -138,6 +200,20 @@ import {
         "Learnt how to use React.js for frontend and Node.js for backend",
         "Learnt how to use GIT and Github for source control and to collaborate with teammates",
         "Collaborated with colleagues on a project to clone a site from scratch using the learnt technologies",
+      ],
+    },
+    {
+      title: "MERN-Stack Developer Certification",
+      company_name: "Udemy",
+      icon: udemy,
+      iconBg: "#383E56",
+      date: "Feb 2024 - On going",
+      points: [
+        "Learning the MERN stack (ReactJS, ExpressJS, MongoDB)",
+        "Learning the user authentication using the JSON web tokens",
+        "Learning how to add payments to the webpage",
+        "Learning how to use a database for storing the data",
+        "Learning how to use the React Bootstrap",
       ],
     },
 
@@ -237,6 +313,28 @@ import {
       image: susurulApei,
       source_code_link: "https://github.com/Oxidiu/susurul-apei",
       live_page_link: "https://susurul-apei.vercel.app/"
+    },
+    {
+      name: "Lumea Elfilor",
+      description:
+        "This project is a simple website for an elf who sells magic items in the forest. Haha kidding :)) I develop this website as part of an on going udemy course where I learn the MERN stack (MongoDB, Express.js, React.js, Node.js). It is an e-commerce website where users will be able to browse through the products, add products to the cart, add shipping details, place the order and make payments via PayPall or debit card. They will also be able to sign up or sign in with JSON web tokens, and encrypted passwords in the database, the admin will be able to delete or modify the user profiles from within the website.",
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JSON webtokens",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lumeaElfilor,
+      source_code_link: "https://github.com/Oxidiu/lumea-elfilor",
+      live_page_link: "https://lumea-elfilor.onrender.com/"
     },
   ];
 
